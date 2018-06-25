@@ -14,14 +14,16 @@ Summary: Most ROC curve plots obscure the cutoff values and inhibit interpretati
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-plotroc-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-plotroc-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-plotroc-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-plotroc-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-plotroc-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-plotroc-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-plotroc-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-plotroc-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-plotroc-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-plotroc-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-plotroc-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-plotroc-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-plotroc/badges/version.svg)](https://anaconda.org/conda-forge/r-plotroc)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-plotroc/badges/downloads.svg)](https://anaconda.org/conda-forge/r-plotroc)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--plotroc-green.svg)](https://anaconda.org/conda-forge/r-plotroc) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-plotroc.svg)](https://anaconda.org/conda-forge/r-plotroc) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-plotroc.svg)](https://anaconda.org/conda-forge/r-plotroc) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-plotroc.svg)](https://anaconda.org/conda-forge/r-plotroc) |
 
 Installing r-plotroc
 ====================
