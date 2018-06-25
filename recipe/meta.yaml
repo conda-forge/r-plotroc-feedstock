@@ -1,4 +1,4 @@
-{% set version = '2.2.0' %}
+{% set version = "2.2.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/plotROC_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/plotROC/plotROC_{{ version }}.tar.gz
-  sha256: 9d6cfd53ebde5b5d7cbd6213672b2d807ab50aef0353fbf7a587ef8ac0fdba21
+  sha256: ef3fd972d0f600bb0c61df46b20e946ba317832a3ebc3827f9ec0374a990682e
 
 build:
   number: 0
