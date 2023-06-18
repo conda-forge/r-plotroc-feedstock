@@ -1,11 +1,11 @@
-About r-plotroc
-===============
+About r-plotroc-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plotroc-feedstock/blob/main/LICENSE.txt)
 
 Home: http://sachsmc.github.io/plotROC
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plotroc-feedstock/blob/main/LICENSE.txt)
 
 Summary: Most ROC curve plots obscure the cutoff values and inhibit interpretation and comparison of multiple curves. This attempts to address those shortcomings by providing plotting and interactive tools. Functions are provided to generate an interactive ROC curve plot for web use, and print versions. A Shiny application implementing the functions is also included.
 
