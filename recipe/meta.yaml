@@ -1,4 +1,4 @@
-{% set version = "2.3.0" %}
+{% set version = "2.3.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plotROC_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plotROC/plotROC_{{ version }}.tar.gz
-  sha256: ef0c0937f28df4512c2c0a53ef9b2b2ffbc4667a8abae3d8892fc51a334c5f4d
+  sha256: 2f2c7ebec7b9cb8ad41b5ade1951b9d9f0ec12611ec369e12b10a34e5bb05b96
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
