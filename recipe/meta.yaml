@@ -1,4 +1,4 @@
-{% set version = "2.3.1" %}
+{% set version = "2.3.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plotROC_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plotROC/plotROC_{{ version }}.tar.gz
-  sha256: 2f2c7ebec7b9cb8ad41b5ade1951b9d9f0ec12611ec369e12b10a34e5bb05b96
+  sha256: 8bc762647cfc3213d204d5ed7303ff4331c08e0346f0367e2e1d772accdaacde
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
